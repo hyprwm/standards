@@ -25,8 +25,8 @@ root
   ┃ ┣ image2.png
   ┃ ┗ meta.hl
   ┗ shapeB
-    ┣ image.png
-    ┣ image2.png
+    ┣ image.svg
+    ┣ image2.svg
     ┗ meta.hl
 ```
 
@@ -91,8 +91,8 @@ define_size = 32, image2.png
 or
 ```ini
 # define_size = px size, filename, delay in ms
-define_size = 64, image1.png, 500
-define_size = 64, image2.png, 500
+define_size = 64, image1.svg, 500
+define_size = 64, image2.svg, 500
 ```
 
 Size defines have restrictions:
