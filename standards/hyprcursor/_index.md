@@ -16,6 +16,7 @@ Compilation involves compressing the data and packaging it.
 
 The general overview looks like this:
 
+```
 root
 ┣ manifest.hl
 ┗ hyprcursors
@@ -27,6 +28,7 @@ root
     ┣ image.png
     ┣ image2.png
     ┗ meta.hl
+```
 
 ### Manifest
 
