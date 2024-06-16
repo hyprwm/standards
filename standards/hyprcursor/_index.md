@@ -103,3 +103,4 @@ Size defines have restrictions:
  - All cursor images _must_ have an aspect ratio of 1:1.
  - Animated svgs are _not supported_, create multiple svg files with each frame for animations.
  - Size parameter for .svg images is ignored, leaving it as 0 is recommended.
+ - For png images, `px size` has to match the `.png`'s pixel size.
