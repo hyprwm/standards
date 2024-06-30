@@ -104,3 +104,22 @@ Size defines have restrictions:
  - Animated svgs are _not supported_, create multiple svg files with each frame for animations.
  - Size parameter for .svg images is ignored, leaving it as 0 is recommended.
  - For png images, `px size` has to match the `.png`'s pixel size.
+
+## Packaging
+
+The packaged format is very similar to the working format. The process of packaging (done by `hyprcursor-util`) involves
+taking every directory in the cursor shape subdirectory (in the above example, `hyprcursors/`) and turning it into a
+zip file with the `.hlc` extension.
+
+For example, for the structure mentioned in the example further up, we'd take `shapeA/` and turn it into a zip file named `shapeA.hlc`
+with the following contents:
+
+```
+shapeA.hlc
+┣ image.png
+┣ image2.png
+┗ meta.hl
+```
+
+Note there is no default subdirectory and all the files are in the zip's root.
+
