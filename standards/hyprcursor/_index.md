@@ -68,6 +68,7 @@ Available properties are:
 | resize_algorithm | which resize algorithm to use for this shape. | bilinear, nearest, none | yes |
 | hotspot_x | the absolute x coordinate of the hotspot, from top left. | float, 0.0 - 1.0 | yes |
 | hotspot_y | the absolute y coordinate of the hotspot, from top left. | float, 0.0 - 1.0 | yes |
+| nominal_size | the percentage that this size is compared to the selected theme size. E.g. 0.5 in a theme of 32x will result in 64x for this shape. | float, 0.1 - 2.0 | yes |
 | define_override\*\* | defines an override this shape should take. E.g. define_override = arrow will make this shape also be responsible for a shape called "arrow" | string | no |
 | define_size\*\* | defines a size variant. See size variants for more | size variant | no |
 
